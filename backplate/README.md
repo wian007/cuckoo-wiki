@@ -8,3 +8,5 @@ The backplate is the wall-mounted base that connects to the signal lines from H
 
 # Contents
  - [Hardware](Hardware.md)
+ - [Protocol](Protocol.md)
+ - [Protocol Investigation](backplate/Protocol Investigation.md)
