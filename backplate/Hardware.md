@@ -70,7 +70,7 @@ The UK / EU Backplate has 2 screw terminals for receiving power and facilitates 
 
 ### Heatlink
 
-The heatlink is installed near the central heating appliance / heat valve. The heatlink receives commands from the nest and controls the appliciance through a wired connection.
+The heatlink is installed near the central heating appliance / heat valve. The heatlink receives commands from the nest and controls the appliciance through a wired connection. The appliance is controlled with a relais.
 
 When the display cannot find the Heatlink wired / wireless it will display an error.
 
@@ -94,3 +94,9 @@ When the display cannot find the Heatlink wired / wireless it will display an er
 - **2** Common
 - **3** Demand heat
 
+#### Heatlink PCB
+
+![Heatlink PCB 1](attachments/eu_uk_backplate_heatlink/heatlink/20251201_215149.jpg)
+![Heatlink PCB 2](attachments/eu_uk_backplate_heatlink/heatlink/20251201_215208.jpg)
+![Heatlink PCB 3](attachments/eu_uk_backplate_heatlink/heatlink/20251201_215315.jpg)
+![Heatlink PCB 4](attachments/eu_uk_backplate_heatlink/heatlink/20251201_215956.jpg)
