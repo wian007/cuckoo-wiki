@@ -49,7 +49,6 @@ Tests on the device (our own daemon sends `0xa4`, then `0xa1`, then nothing):
 | mask `0x0001`, 20 s, head unit awake | no byte for 19.5 s, then the run of `0x00` bytes |
 | the same, then `0xa2` | buffers delivered at once, stream runs again |
 | mask `0x0001`, 40 s, then suspend to RAM | asleep 38 s, woken by the serial wake-up interrupt, everything ran on |
-| mask with PIR and NEAR_PIR, in daily use | a hand in front of the unit wakes it |
 
 ## The stock head unit, in short
 
@@ -62,6 +61,7 @@ Tests on the device (our own daemon sends `0xa4`, then `0xa1`, then nothing):
 
 ## Unknown
 
+- Whether the other mask bits (PIR, temperature, ...) wake as the timer does: only the timer was tested on its own.
 - How long the buffers of the backplate hold.
 - The bit of the hall-effect event (`HE` is logged without a visible bit test).
 - `0x8b` ("MCU mode" in `nlclient`) is not handled by this backplate firmware at all.
