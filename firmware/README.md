@@ -2,9 +2,9 @@
 
 Projects that run other software on the 2nd generation thermostat than the stock firmware.
 
-## nest-yocto: a current Linux and a local thermostat (J49)
+## nest-v2-firmware: a current Linux and a local thermostat (J49)
 
-<https://github.com/wian007/nest-yocto> (MIT; hobby project, no warranty, read its disclaimer)
+<https://github.com/wian007/nest-v2-firmware> (MIT; hobby project, no warranty, read its disclaimer)
 
 Not a modification of the stock system but a replacement: its own U-Boot 2024.07, Linux 6.6
 with a device tree for the J49 board, a Yocto root file system, and small Rust programs for the
@@ -33,10 +33,10 @@ Things from that work that may be useful for other projects, written up on this 
 
 And in the repository itself:
 
-- [Flash layout and ECC formats](https://github.com/wian007/nest-yocto/blob/main/docs/flash-layout.md):
+- [Flash layout and ECC formats](https://github.com/wian007/nest-v2-firmware/blob/main/docs/flash-layout.md):
   which partition is read by which loader with which ECC.
-- [The 802.15.4 radio (EM357)](https://github.com/wian007/nest-yocto/blob/main/docs/em357-radio.md):
+- [The 802.15.4 radio (EM357)](https://github.com/wian007/nest-v2-firmware/blob/main/docs/em357-radio.md):
   wiring, Nest's SPI bootloader protocol, what runs on the chip.
-- [Hardware notes](https://github.com/wian007/nest-yocto/tree/main/docs/hw): clocks, GPIO, pin mux
+- [Hardware notes](https://github.com/wian007/nest-v2-firmware/tree/main/docs/hw): clocks, GPIO, pin mux
   as the stock system sets them.
 - [j49-emulator](https://github.com/wian007/j49-emulator): the screen program on a PC.

@@ -7,9 +7,9 @@ the serial line; **inferred** = concluded from that; **unknown** = not establish
 
 Sources: static analysis of stock `nlclient` (5.9.x) and of the backplate firmware image
 (`nlbpfirmware.plist`), a serial capture of `nlclient` with ttyproxy, and tests with our own
-daemon on the device. The full notes are in the nest-yocto repository:
-[backplate-heatlink-flow.md](https://github.com/wian007/nest-yocto/blob/main/docs/backplate-heatlink-flow.md)
-and [backplate-protocol.md](https://github.com/wian007/nest-yocto/blob/main/docs/backplate-protocol.md).
+daemon on the device. The full notes are in the nest-v2-firmware repository:
+[backplate-heatlink-flow.md](https://github.com/wian007/nest-v2-firmware/blob/main/docs/backplate-heatlink-flow.md)
+and [backplate-protocol.md](https://github.com/wian007/nest-v2-firmware/blob/main/docs/backplate-protocol.md).
 
 ## The command
 

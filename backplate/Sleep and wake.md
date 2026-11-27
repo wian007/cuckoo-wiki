@@ -3,8 +3,8 @@
 How a sleeping head unit and the backplate work together. From the backplate firmware
 `AMBER_BP 1.0.26` (disassembly), stock `nlclient` / `nlsleepd` (5.9.x), and tests on a J49 with
 our own software. **Observed** / **inferred** / **unknown** as on the other pages. Full notes:
-[sleep-j49.md](https://github.com/wian007/nest-yocto/blob/main/docs/sleep-j49.md),
-[sleep-stock.md](https://github.com/wian007/nest-yocto/blob/main/docs/sleep-stock.md).
+[sleep-j49.md](https://github.com/wian007/nest-v2-firmware/blob/main/docs/sleep-j49.md),
+[sleep-stock.md](https://github.com/wian007/nest-v2-firmware/blob/main/docs/sleep-stock.md).
 
 ## The two commands
 
